@@ -1,0 +1,300 @@
+body{
+    background: whitesmoke;
+}
+
+.sidenav{
+    width: 250px;
+    background: white;
+    height: 103%;
+    position: fixed;
+    box-shadow: 1px 1px 10px 0px;
+    overflow: hidden;
+    margin-left: -10px;
+    margin-top: -10px;
+}
+
+#admin-sidebar{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial;
+    top: 5%;
+    color: darkgray;
+    font-weight: normal;
+}
+#dashborad-sidenav{
+    position: absolute;
+    text-decoration: none;
+    margin-left: 20px;
+    top: 15%;
+    color: gray;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    border-radius: 2%;
+}
+#dassboard-userprofile{
+    position: absolute;
+    text-decoration: none;
+    margin-left: 20px;
+    top: 24%;
+    color: gray;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 10px;
+    border-radius: 2%;
+}
+#dashborad-3{
+    position: absolute;
+    text-decoration: none;
+    margin-left: 20px;
+    top: 32.5%;
+    color: gray;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 10px;
+    border-radius: 2%;
+}
+#dashborad-4{
+    position: absolute;
+    text-decoration: none;
+    margin-left: 20px;
+    top: 40.5%;
+    color: gray;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    border-radius: 2%;
+
+}
+#dassboard-userprofile:hover,#dashborad-sidenav:hover,#dashborad-3:hover,#dashborad-4:hover{
+    background-color: purple;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 50px;
+    border-radius: 2%;
+    box-shadow: 0px 0px 5px 0px rebeccapurple;
+    transition: background-color 0.5s;
+    color: white;
+}
+#dassboard-userprofile:active,#dashborad-sidenav:active,#dashborad-3:active,#dashborad-4:active {
+    background-color: purple;
+    transition: background-color 0.5s;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 50px;
+    border-radius: 2%;
+    color: white;
+    box-shadow: 0px 0px 5px 0px rebeccapurple;
+
+}
+
+#box1{
+    position: absolute;
+    top: 15%;
+    height: 130px;
+    width: 250px;
+    background-color: purple;
+}
+#box3{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    height: 130px;
+    width: 250px;
+    background-color: purple;
+    display: flex;
+}
+#box4 {
+    position: absolute;
+    top: 15%;
+    height: 130px;
+    width: 250px;
+    left: 77.5%;
+    background-color: purple;
+}
+#boxinbox1{
+    left: 10%;
+    top: -15%;
+    position: absolute;
+
+
+    height: 80px;
+    width: 80px;
+    background-color: darkorange;
+    box-shadow: 0px 0px 2px 0px orange;
+}
+#boxinbox4{
+    left: 10%;
+    top: -15%;
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    background-color: green;
+    box-shadow: 0px 0px 5px 0px green;
+    display: flex;
+    justify-content: space-between;
+}
+#boxinbox3{
+    left: 10%;
+    top: -15%;
+    position: absolute;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    width: 80px;
+    background-color: lightskyblue;
+    box-shadow: 0px 0px 5px 0px lightblue;
+}
+#boxinbox2{
+    left: 10%;
+    top: -15%;
+    position: absolute;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    width: 80px;
+    background-color: red;
+    box-shadow: 0px 0px 5px 0px lightcoral;
+}
+
+body{
+    background: whitesmoke;
+}
+.body3{
+    position: absolute;
+    margin-left: 250px;
+    top: 15%;
+}
+.card{
+    width: 270px;
+    height: 120px;
+    box-shadow: 0px 0px 1px 0px;
+}
+.fa-user-friends{
+    position: absolute;
+    color: whitesmoke;
+    top: 34%;
+    left: 25%;
+    font-size: 30px;
+}
+.fa-hourglass-half{
+    position: absolute;
+    color: whitesmoke;
+    top: 34%;
+    left: 35%;
+    font-size: 30px;
+}
+.fa-plus{
+    position: absolute;
+    color: whitesmoke;
+    top: 34%;
+    left: 35%;
+    font-size: 30px;
+}
+.fa-star{
+    position: absolute;
+    color: whitesmoke;
+    top: 34%;
+    left: 30%;
+    font-size: 30px;
+}
+.p{
+    position: absolute;
+    right: 7%;
+    top: 10%;
+    color: gray;
+}
+h2{
+
+    position: absolute;
+    right: 7%;
+    top: 25%;
+    font-weight: lighter;
+}
+.deck1{
+    position: absolute;
+    top: 150%;
+ }
+ .card1{
+     height: 300px;
+     width: 550px;
+ }
+ #boxinbox5{
+     position: absolute;
+     left: 20%;
+     top: -5%;
+     width: 320px;
+     height: 200px;
+     box-shadow: 0px 0px 5px 0px green ;
+
+     background:linear-gradient(to right,forestgreen,green);
+ }
+ #boxinbox6{
+     position: absolute;
+     left: 20%;
+     top: -5%;
+     width: 320px;
+     height: 200px;
+     background:linear-gradient(to right,orange,darkorange);
+     box-shadow: 0px 0px 5px 0px orange ;
+ }
+.card-n{
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 300px;
+    width: 600px;
+    height: 400px;
+    padding-bottom: 100px;
+}
+#boxinbox7{
+    position: absolute;
+    left: 5%;
+    top: -5%;
+    width: 540px;
+    height: 100px;
+    background:linear-gradient(to right,orange,darkorange);
+    box-shadow: 0px 0px 5px 0px orange ;
+}
+footer{
+    position: absolute;
+    margin-left: 300px;
+    top: 150%;
+}
+#titleforbox7{
+    color: white;
+    font-weight: lighter;
+    font-size: 30px;
+}
+table {
+    margin-top: 100px;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border-bottom: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+
+
+}
+
+@media only screen and (max-width: 987px) {
+    .sidenav{
+        display: none;
+    }
+    .body3{
+        margin: 50px;
+    }
+
+}
